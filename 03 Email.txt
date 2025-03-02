@@ -1,0 +1,30 @@
+Subject: Data Quality Findings and Key Insights from Analysis
+
+Hi Team,
+
+I’ve completed an initial review of the data and wanted to share some key observations along with a request for clarification on a few outstanding issues.
+
+Key Data Quality Issues:
+Missing Data:
+
+CATEGORY_4 in the products dataset is 92% missing, making it unreliable for analysis.
+MANUFACTURER and BRAND fields have ~27% missing values, which may impact brand-level insights.
+BARCODE is 11.5% missing in transactions, potentially affecting joins with product data.
+Duplicate Records:
+
+We found 215 duplicate records in the products dataset and 171 duplicates in transactions, which need to be cleaned to ensure accurate reporting.
+Inconsistent Date Entries:
+
+Interesting Trend in the Data:
+An early trend suggests that users who have been on the platform for over six months tend to scan receipts for higher-value purchases more frequently than newer users. This could be an opportunity for engagement strategies targeting newer users.
+
+Next Steps & Request for Action:
+To ensure accurate insights, I need clarification on the following:
+
+Should we exclude transactions with invalid scan dates or assume a correction factor?
+How should we handle missing brand and barcode data? Is there an external reference we can use for completion?
+Would it be helpful to conduct further segmentation of user behavior by category?
+Let me know how you’d like to proceed, and I’d be happy to refine the analysis accordingly.
+
+Best,
+Vamsi
